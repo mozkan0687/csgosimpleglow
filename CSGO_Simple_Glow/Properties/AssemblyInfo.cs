@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CSGO Simple Glow")]
+[assembly: AssemblyTitle("CSGO_Simple_Glow")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CSGO Simple Glow")]
+[assembly: AssemblyProduct("CSGO_Simple_Glow")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("70ae656d-3c02-4e72-ba87-9b7ad905ace2")]
+[assembly: Guid("c0f3f9fe-098f-43ec-93e4-a8bf06ec6f26")]
 
 // Version information for an assembly consists of the following four values:
 //

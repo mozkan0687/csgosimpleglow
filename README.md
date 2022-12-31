@@ -20,3 +20,7 @@
             public static int hlt = 0x100;  //m_iHealth
             public static int pli = 0x180; //dwClientState_GetLocalPlayer
         }
+
+## ScreenShot
+
+![alt text](ss.png "CSGO_Simple_Glow")

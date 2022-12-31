@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace CSGO_Simple_Glow
 {
@@ -11,7 +12,6 @@ namespace CSGO_Simple_Glow
     {
 
         public static string process = "csgo";
-
         public static int bClient;
         static void Main(string[] args)
         {
@@ -21,7 +21,7 @@ namespace CSGO_Simple_Glow
             {
                 Console.WriteLine("CLIENT :" + bClient.ToString());
                 Console.WriteLine("Working");
-                
+
                 while (true)
                 {
                     dvr En = new dvr()
@@ -49,7 +49,7 @@ namespace CSGO_Simple_Glow
 
                     int adress;
                     int i = 0;
-                    
+
                     do
                     {
 
@@ -60,7 +60,7 @@ namespace CSGO_Simple_Glow
                         int ettl = vam.ReadInt32((IntPtr)bClient + Offsets.entt + (i * 0x10));
                         int pt = vam.ReadInt32((IntPtr)ettl + Offsets.myt);
 
-                        
+
                         int life = vam.ReadInt32((IntPtr)ettl + Offsets.hlt);
 
 
@@ -68,13 +68,13 @@ namespace CSGO_Simple_Glow
                         if (!vam.ReadBoolean((IntPtr)adress))
                         {
 
-                                int gind = vam.ReadInt32((IntPtr)ettl + Offsets.gin);
+                            int gind = vam.ReadInt32((IntPtr)ettl + Offsets.gin);
 
 
-                            
+
                             if (pt != mtm)
                             {
-                            
+
 
                                 if (life > 79)
                                 {
@@ -125,7 +125,7 @@ namespace CSGO_Simple_Glow
                             }
                             else if (pt == mtm)
                             {
-                                
+
                                 adress = bClient + Offsets.gob;
                                 int gobj = vam.ReadInt32((IntPtr)adress);
                                 int calculation;
@@ -158,7 +158,7 @@ namespace CSGO_Simple_Glow
                         }
 
 
-                        
+
                         i++;
                     }
                     while (i < 21);
@@ -169,11 +169,8 @@ namespace CSGO_Simple_Glow
                 }
 
             }
-
             Console.ReadKey();
-
         }
-
         public class Offsets
         {
             public static int lp = 0xDEA964; //dwLocalPlayer
@@ -206,7 +203,7 @@ namespace CSGO_Simple_Glow
 
                     foreach (ProcessModule m in p[0].Modules)
                     {
-
+                        
                         if (m.ModuleName == "client.dll")
                         {
 
@@ -220,7 +217,7 @@ namespace CSGO_Simple_Glow
                 else
                 {
 
-                    Console.WriteLine("Run CSGO first");
+                    Console.WriteLine("Run CSGO First");
                     return false;
                 }
             }
@@ -231,6 +228,6 @@ namespace CSGO_Simple_Glow
                 throw;
             }
         }
+        #endregion
     }
 }
-#endregion

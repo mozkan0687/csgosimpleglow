@@ -1,9 +1,0 @@
-C:\Users\mozkan\source\repos\CSGO Simple Glow\obj\Debug\CSGO Simple Glow.csproj.AssemblyReference.cache
-C:\Users\mozkan\source\repos\CSGO Simple Glow\obj\Debug\CSGO Simple Glow.csproj.CoreCompileInputs.cache
-C:\Users\mozkan\source\repos\CSGO Simple Glow\bin\Debug\CSGO Simple Glow.exe.config
-C:\Users\mozkan\source\repos\CSGO Simple Glow\bin\Debug\CSGO Simple Glow.exe
-C:\Users\mozkan\source\repos\CSGO Simple Glow\bin\Debug\CSGO Simple Glow.pdb
-C:\Users\mozkan\source\repos\CSGO Simple Glow\bin\Debug\VAMemory.dll
-C:\Users\mozkan\source\repos\CSGO Simple Glow\obj\Debug\CSGO Simple Glow.csproj.CopyComplete
-C:\Users\mozkan\source\repos\CSGO Simple Glow\obj\Debug\CSGO Simple Glow.exe
-C:\Users\mozkan\source\repos\CSGO Simple Glow\obj\Debug\CSGO Simple Glow.pdb
